@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+  <form action="/note" method="post">
+    <label for="note-input">Note:</label>
+    <textarea id="note-input" name="newNote" rows="4" cols="60" th:text="${note}">
+    </textarea>
+      <button type="submit">Save note!</button>
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <p th:text="${note}?: 'There is no saved note. '"></p>
+    <p>
+        <small th:text="Edited + ${editCount} + times"></small>
+    </p>
+
+</body>
+</html>
